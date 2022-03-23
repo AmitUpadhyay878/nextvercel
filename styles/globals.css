@@ -14,3 +14,44 @@ a {
 * {
   box-sizing: border-box;
 }
+
+
+/* ------------- */
+
+body {
+  display: flex;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  font-family: Arial, sans-serif;
+  color: #282a2b;
+}
+
+.svg {
+  width: 900px;
+}
+.svg__character {
+  fill: #06038d;
+}
+.svg__line {
+  fill: none;
+  stroke: #c6007e;
+  stroke-dasharray: 6;
+  stroke-width: 1;
+  stroke-linejoin: round;
+}
+.svg__dot {
+  fill: #c6007e;
+}
+.svg__plane {
+  transform: translate(-6px, -11px) rotate(25deg);
+  fill: #c6007e;
+}
+.svg__mask {
+  fill: none;
+  stroke: white;
+  stroke-width: 10;
+  stroke-dasharray: 480;
+  stroke-dashoffset: 480;
+}
