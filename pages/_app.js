@@ -10,7 +10,7 @@ function MyApp({ Component, pageProps }) {
         <meta
           property="og:image"
           key="og-image"
-          content="https://media.multiqos.com/wp-content/uploads/2021/11/15162709/site-preview-1.jpg"
+          content="/BeatyAppSolutionInnerPage.png"
         />
       </Head>
       <Component {...pageProps} />
